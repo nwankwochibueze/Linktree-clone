@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@12..96&family=Inter:wght@100;400&family=Roboto&display=swap');
+
+.body_container{
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    row-gap: 1.2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.image_name_bio_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 1rem;
+    column-gap: 0.4rem;
+}
+.name_wrapper h1{
+    font-size: 1.8rem;
+}
+.image_wrapper{
+    width: 14%;
+    height: auto;
+}
+.image_wrapper img{
+    width: 100%;
+    height: auto;
+}
+.link_button_wrappers{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    row-gap: 1rem;
+    position: relative;
+}
+.various_link_containers{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    row-gap: 2rem;
+}
+/* .link_button_wrappers button{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-evenly;
+    border: 0;
+    outline: none;
+    width: 100%;
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-size: 1rem;
+} */
+.link_box{
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    padding: 1rem;
+    
+   
+}
+.share_icon{
+    font-size: 20px;
+}
+.link_box p{
+    font-size: 1.1rem;
+}
+ion-icon{
+    font-size: 20px;
+}
+.link_copied_div{
+    position: absolute;
+    background-color: aliceblue;
+    padding: 0.8rem;
+    right: 0.8rem;
+    bottom: 2.4rem;
+    visibility: hidden;
+
+}
+.link_copied_div_new{
+    position: absolute;
+    background-color: aliceblue;
+    padding: 0.8rem;
+    right: 0.8rem;
+    bottom: 2.4rem;
+    visibility: visible;
+
+}
